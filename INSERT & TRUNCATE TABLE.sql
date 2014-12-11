@@ -24,7 +24,7 @@ INSERT INTO tbl_livro (nome_livro, isbn, data_pub, preco_livro, id_autor, id_edi
 
 USE db_biblioteca
 -- Comando abaixo para contar os registros antes e depois da exclusão
-SELECT COUNT(*) AS db_biblioteca FROM tbl_livro
+SELECT COUNT(*) AS db_biblioteca FROM tbl_livro -- comando COUNT conta os registros na tabela
 GO
 TRUNCATE TABLE tbl_livro
 GO
