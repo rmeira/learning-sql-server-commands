@@ -1,5 +1,7 @@
 USE db_Biblioteca -- Este comando identifica que os comandos abaixos estão sendos executados dentro do banco de dados db_biblioteca
 
+
+USE db_biblioteca
 CREATE TABLE tbl_livro( -- Cria a tabela
 	id_livro SMALLINT PRIMARY KEY IDENTITY(100,1), -- IDENTITY criação de numeros serias
 	nome_livro VARCHAR(50) NOT NULL, 
