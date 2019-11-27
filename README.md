@@ -1,2 +1,3 @@
-# learning-sql-server
-Learning SQL Server
+# Learning SQL Server Commands
+
+Aprendendo e atualizando os conhecimentos sobre SQL Sevrer
